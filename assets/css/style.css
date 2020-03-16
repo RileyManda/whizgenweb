@@ -121,9 +121,9 @@ p {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background: -webkit-linear-gradient(left, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
-  background: -o-linear-gradient(left, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
-  background: linear-gradient(to right, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+  background: -webkit-linear-gradient(left, #3e566d 0%, #3e566d 50%, #3e566d 100%);
+    background: -o-linear-gradient(left, #3e566d 0%, #6d91b3 50%, #3e566d 100%);
+    background: linear-gradient(to right, #3e566d 0%, #6d91b3 50%, #3e566d 100%);
   background-size: 200%; }
   .main-btn:hover {
     color: #fff;
@@ -713,9 +713,9 @@ p {
 .navbar-btn .main-btn {
   height: 45px;
   line-height: 45px;
-  background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-  background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-  background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+  background: -webkit-linear-gradient(left, #3e566d 0%, #3e566d 50%, #3e566d 100%);
+    background: -o-linear-gradient(left, #3e566d 0%, #6d91b3 50%, #3e566d 100%);
+    background: linear-gradient(to right, #3e566d 0%, #6d91b3 50%, #3e566d 100%);
   background-size: 200%; }
   .navbar-btn .main-btn:hover {
     color: #fff;
@@ -904,7 +904,7 @@ p {
     .single-services .services-content .more:hover {
       color: #3D566E; }
   .single-services:hover {
-    border-color: #FE7A7B; }
+    border-color: #577c9f; }
     .single-services:hover .services-icon .shape {
       -webkit-transform: rotate(25deg);
       -moz-transform: rotate(25deg);
@@ -950,9 +950,9 @@ p {
   .about-content .text {
     margin-top: 15px; }
   .about-content .main-btn {
-    background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-    background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-    background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+    background: -webkit-linear-gradient(left, #3e566d 0%, #3e566d 50%, #3e566d 100%);
+    background: -o-linear-gradient(left, #3e566d 0%, #6d91b3 50%, #3e566d 100%);
+    background: linear-gradient(to right, #3e566d 0%, #6d91b3 50%, #3e566d 100%);
     background-size: 200%;
     height: 50px;
     line-height: 50px;
@@ -1020,9 +1020,9 @@ p {
     border-bottom-right-radius: 5px;
     height: 65px;
     line-height: 65px;
-    background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-    background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-    background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+    background: -webkit-linear-gradient(left, #3e566d 0%, #3e566d 50%, #3e566d 100%);
+    background: -o-linear-gradient(left, #3e566d 0%, #6d91b3 50%, #3e566d 100%);
+    background: linear-gradient(to right, #3e566d 0%, #6d91b3 50%, #3e566d 100%);
     background-size: 200%; }
     @media (max-width: 767px) {
       .subscribe-form button {
@@ -1152,7 +1152,7 @@ p {
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s; }
     .copyright-content a:hover {
-      color: #FE8464; }
+      color: #577c9f; }
 
 /*===== BACK TO TOP =====*/
 .back-to-top {
@@ -1178,3 +1178,31 @@ p {
   display: none; }
   .back-to-top:hover {
     color: #fff; }
+
+
+
+    /* Collapsible Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: rgb(252, 249, 249);
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
