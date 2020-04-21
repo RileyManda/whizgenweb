@@ -1,0 +1,68 @@
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    width: 500px;
+    background: white;
+    color: currentColor;
+    text-decoration: none;
+    overflow: hidden;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-delay: 0.15s;
+            transition-delay: 0.15s;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  }
+  .card.hover {
+    color: white;
+    -webkit-transition-delay: 0;
+            transition-delay: 0;
+  }
+  .card, .card__image, .card__image::after, .card__author, .card__body, .card__foot, .card__border {
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    -webkit-transition-timing-function: cubic-bezier(0.51, 0.92, 0.24, 1);
+            transition-timing-function: cubic-bezier(0.51, 0.92, 0.24, 1);
+  }
+  .card__head {
+    position: relative;
+    padding-top: 70%;
+  }
+  .card__author {
+    position: absolute;
+    padding: 2em;
+    left: 0;
+    bottom: 0;
+    color: white;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-delay: 0.15s;
+            transition-delay: 0.15s;
+  }
+  .card.hover .card__author {
+    -webkit-transition-delay: 0;
+            transition-delay: 0;
+  }
+  .card__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1553787762-b5f5721f3270?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80");
+    -webkit-transform-origin: top center;
+            transform-origin: top center;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-delay: 0.15s;
+            transition-delay: 0.15s;
+  }

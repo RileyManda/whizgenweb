@@ -9,8 +9,7 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #6A6972;
-  overflow-x: hidden; }
-
+  overflow-x: hidden;}
 * {
   margin: 0;
   padding: 0;
@@ -644,10 +643,10 @@ p {
       .navbar-nav .nav-item .sub-menu li a {
         display: block;
         padding: 8px 20px;
-        color: #2E2E2E; }
+        color: #2E2E2E;}
         .navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
           padding-left: 25px;
-          color: #3D566E; }
+          color: rgb(252, 59, 59);}
 
 .navbar-nav .sub-nav-toggler {
   display: none; }
@@ -1165,9 +1164,9 @@ p {
   height: 40px;
   line-height: 40px;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #3D566E 0%, #2e82ef 100%);
-  background: -o-linear-gradient(left, #3D566E 0%, #2e82ef 100%);
-  background: linear-gradient(to right, #3D566E 0%, #2e82ef 100%);
+  background: -webkit-linear-gradient(left, #3D566E 0%, #3949ab 100%);
+  background: -o-linear-gradient(left, #3D566E 0%, #3949ab 100%);
+  background: linear-gradient(to right, #3D566E 0%, #3949ab 100%);
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
