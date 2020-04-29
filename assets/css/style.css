@@ -1157,6 +1157,7 @@ p {
 .back-to-top {
   font-size: 20px;
   color: #fff;
+  /* background-color: #F94F4F; */
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -1164,9 +1165,9 @@ p {
   height: 40px;
   line-height: 40px;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #3D566E 0%, #3949ab 100%);
-  background: -o-linear-gradient(left, #3D566E 0%, #3949ab 100%);
-  background: linear-gradient(to right, #3D566E 0%, #3949ab 100%);
+  background: -webkit-linear-gradient(left, #d84d4d 0%, #e61111 100%);
+  background: -o-linear-gradient(left, #d84d4d 0%, #e61111 100%);
+  background: linear-gradient(to right, #d84d4d 0%, #e61111 100%);
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1183,7 +1184,7 @@ p {
     /* Collapsible Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #eee;
-  color: #444;
+  color: rgb(156, 151, 151);
   cursor: pointer;
   padding: 18px;
   width: 100%;
