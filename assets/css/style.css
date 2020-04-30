@@ -1165,9 +1165,9 @@ p {
   height: 40px;
   line-height: 40px;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #d84d4d 0%, #e61111 100%);
-  background: -o-linear-gradient(left, #d84d4d 0%, #e61111 100%);
-  background: linear-gradient(to right, #d84d4d 0%, #e61111 100%);
+  background: -webkit-linear-gradient(left, #b94646 0%, #862222 100%);
+  background: -o-linear-gradient(left, #b94646 0%, #862222 100%);
+  background: linear-gradient(to right, #b94646 0%, #862222 100%);
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
